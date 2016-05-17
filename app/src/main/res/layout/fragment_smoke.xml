@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context=".ui.main.MainActivity">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/layout_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background.main">
+
+        <ImageButton
+            android:id="@+id/btn_drawer"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/ic_reorder" />
+
+        <ImageButton
+            android:id="@+id/btn_more"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/ic_more"/>
+
+
+        <ImageButton
+            android:id="@+id/btn_rotate"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/btn_more"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/ic_refresh" />
+
+        <com.huijimuhe.esmoke.widget.CigaretteView
+            android:id="@+id/smoke"
+            android:layout_width="wrap_content"
+            android:layout_height="400dp"
+            android:layout_centerInParent="true"
+            custom:bodyHeight="400dp" />
+    </RelativeLayout>
+
+    <master.flame.danmaku.ui.widget.DanmakuView
+        android:id="@+id/sv_danmaku"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="?attr/actionBarSize" />
+
+    <com.huijimuhe.esmoke.widget.SmokeRingView
+        android:id="@+id/smoke_ring"
+        android:layout_width="80dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true" />
+
+    <com.huijimuhe.esmoke.widget.ChatInputView
+        android:id="@+id/chat_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp" />
+</RelativeLayout>
+
+</LinearLayout>

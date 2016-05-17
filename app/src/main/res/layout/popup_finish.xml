@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:background="@color/menu.background"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/Menu.Main"
+        android:id="@+id/btn_why"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/ic_mood"
+        android:gravity="center_horizontal"
+        android:text="抽我" />
+
+    <TextView
+        style="@style/Menu.Sub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="为什么不能停" />
+
+    <TextView
+        style="@style/Menu.Main"
+        android:id="@+id/btn_share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/ic_share"
+        android:gravity="center_horizontal"
+        android:text="社交分享" />
+
+    <TextView
+        style="@style/Menu.Sub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="让朋友们知道你来认真的" />
+
+    <TextView
+        style="@style/Menu.Main"
+        android:id="@+id/btn_shop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_share"
+        android:clickable="true"
+        android:drawableTop="@drawable/ic_favorite"
+        android:gravity="center_horizontal"
+        android:text="商店打分" />
+
+    <TextView
+        style="@style/Menu.Sub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="抽我的人越多你越有面子" />
+
+    <ImageView
+        android:id="@+id/btn_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_share"
+        android:src="@drawable/ic_close"
+        android:clickable="true"
+        android:gravity="center_horizontal"  />
+</LinearLayout>

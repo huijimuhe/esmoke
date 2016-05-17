@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="bodyHeight" format="dimension"/>
+
+    <declare-styleable name="CigaretteView">
+        <attr name="bodyHeight" />
+    </declare-styleable>
+</resources>

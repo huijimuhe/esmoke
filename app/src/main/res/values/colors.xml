@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background.seperator">#464646</color>
+    <color name="background.blank">#fefefe</color>
+    <color name="background.fire">#d35400</color>
+    <color name="background.main">#c0392b</color>
+    <color name="menu.item">#62b5a8</color>
+    <color name="menu.background">#da5446</color>
+    <color name="text.main">#fefefe</color>
+    <color name="text.sub">#efefef</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+</resources>

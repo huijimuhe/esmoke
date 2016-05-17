@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">抽我戒烟</string>
+    <string name="button_send">发送</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="error_no_network">no network</string>
+
+    <string name="action_menu">菜单</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="encourage">说说鼓励的话</string>
+    <string name="moto">不抽烟,抽我</string>
+    <string name="skip">跳过</string>
+    <string name="done">关闭</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="hello_world">Hello world!</string>
+</resources>

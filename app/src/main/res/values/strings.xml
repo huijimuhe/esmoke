@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">smokeme</string>
+    <string name="button_send">Send</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="error_no_network">no network</string>
+
+    <string name="action_menu">menu</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="encourage">say something</string>
+    <string name="moto">no smoking,smoke me</string>
+    <string name="skip">skip</string>
+    <string name="done">done</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="hello_world">Hello world!</string>
+</resources>

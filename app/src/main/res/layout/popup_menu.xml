@@ -1,0 +1,36 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:background="@color/menu.background"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <Button
+        style="@style/Menu.Main"
+        android:id="@+id/btn_share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/ic_share"
+        android:background="@null"
+        android:text="朋友圈分享" />
+
+    <Button
+        style="@style/Menu.Main"
+        android:id="@+id/btn_sound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:layout_marginTop="30dp"
+        android:background="@null"
+        android:drawableTop="@drawable/ic_volume_on"
+        android:text="声音" />
+
+    <ImageView
+        android:id="@+id/btn_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_close"
+        android:layout_marginTop="50dp"
+        android:clickable="true" />
+</LinearLayout>
